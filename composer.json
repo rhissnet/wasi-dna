@@ -21,7 +21,6 @@
 		"classmap": [
 		],
 		"psr-4": {
-			"App\\": "app/"
 		}
 	},
 	"config": {
