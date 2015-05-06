@@ -20,7 +20,7 @@ switch ($argv[1]){
         + I18n     >= 2.6.6
         
         **********************
-        *      Colombia      *
+        *   Wasi Colombia!   *
         **********************
         <?php
         break;
