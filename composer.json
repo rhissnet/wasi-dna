@@ -1,9 +1,17 @@
 {
-	"name": "josewilsoncc/dna",
+	"name": "rhissnet/wasi-dna",
 	"description": "The Mutant Framework.",
 	"keywords": ["framework", "mutant"],
 	"license": "MIT",
 	"type": "project",
+        "authors": [
+            {
+                "name": "Jose Wilson Capera Castaño",
+                "email": "jose@wasi.co",
+                "homepage": "http://www.wasi.co/",
+                "role": "Developer"
+            }
+        ],
 	"require": {
 		"illuminate/database": "*",
                 "philo/laravel-blade": "3.*",
