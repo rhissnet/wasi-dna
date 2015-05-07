@@ -1,6 +1,6 @@
 <?php
 
-define('DNA', BASEPATH."vendor/josewilsoncc/dna/");
+define('DNA', BASEPATH."vendor/rhissnet/wasi-dna/");
 define('RESOURCES', BASEPATH . 'resources/');
 
 require DNA.'modules/eloquent.php';
