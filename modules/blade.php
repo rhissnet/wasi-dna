@@ -3,7 +3,11 @@
 global $blade;
 $blade = new Philo\Blade\Blade(RESOURCES . 'views', RESOURCES . '/cache');
 
-function view($view = null, $data = array(), $mergeData = array()){
+function view($view = null, $data = array(), $mergeData = array(), $return){
     global $blade;
-    echo $blade->view()->make($view, $data, $mergeData)->render();
+    $view = $blade->view()->make($view, $data, $mergeData)->render();
+    if($return)
+        return $view;
+    else
+        echo $view;
 }
