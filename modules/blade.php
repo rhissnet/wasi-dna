@@ -11,3 +11,9 @@ function view($view = null, $data = array(), $mergeData = array(), $return = fal
     else
         echo $view;
 }
+
+function get_view($view = null, $data = array(), $mergeData = array()){
+    global $blade;
+    $view = $blade->view()->make($view, $data, $mergeData)->render();
+    return $view;
+}
