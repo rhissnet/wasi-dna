@@ -17,6 +17,11 @@ function trans($key, array $replace = array(), $locale = null){
     echo $localiser->get($key, $replace, $locale);
 }
 
+function get_trans($key, array $replace = array(), $locale = null){
+    global $localiser;
+    return $localiser->get($key, $replace, $locale);
+}
+
 function set_lang($lang){
     global $localiser;
     global $translationLoader;
