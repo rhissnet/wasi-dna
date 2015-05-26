@@ -12,9 +12,9 @@ $translationLoader = new FileLoader(new Filesystem,$path);
 global $localiser;
 $localiser = new Translator($translationLoader,$locale);
 
-function trans($data){
+function trans($key, array $replace = array(), $locale = null){
     global $localiser;
-    echo $localiser->get($data);
+    echo $localiser->get($key, $replace, $locale);
 }
 
 function set_lang($lang){
