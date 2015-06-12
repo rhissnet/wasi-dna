@@ -13,9 +13,9 @@
             }
         ],
 	"require": {
-		"illuminate/database": "5.1.*",
+		"illuminate/database": "*",
                 "philo/laravel-blade": "3.*",
-                "illuminate/translation": "2.*"
+                "illuminate/translation": "*"
 	},
 	"autoload": {
 		"classmap": [
