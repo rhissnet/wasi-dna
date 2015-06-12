@@ -15,7 +15,7 @@
 	"require": {
 		"illuminate/database": "5.1.*",
                 "philo/laravel-blade": "3.*",
-                "illuminate/translation": "*"
+                "illuminate/translation": "5.1.*"
 	},
 	"autoload": {
 		"classmap": [
