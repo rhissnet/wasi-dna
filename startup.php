@@ -2,7 +2,7 @@
 
 define('DNA', BASEPATH."vendor/rhissnet/wasi-dna/");
 define('RESOURCES', BASEPATH . 'resources/');
-define('SKIN', BASEPATH . 'system/vista/skin/');
+define('DNA_SKIN', BASEPATH . 'system/vista/skin/');
 
 require DNA.'modules/eloquent.php';
 require DNA.'modules/blade.php';

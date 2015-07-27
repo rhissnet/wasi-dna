@@ -6,7 +6,7 @@ global $blade;
 $blade = new Philo\Blade\Blade(RESOURCES . 'views', RESOURCES . '/cache');
 
 global $blade_skin;
-$blade_skin = new Philo\Blade\Blade(SKIN, RESOURCES . '/cache');
+$blade_skin = new Philo\Blade\Blade(DNA_SKIN, RESOURCES . '/cache');
 
 function view($view = null, $data = array(), $mergeData = array(), $return = false){
     global $blade;
