@@ -1,5 +1,7 @@
 <?php
 
+#2015/07/27 10:51 a.m.
+
 global $blade;
 $blade = new Philo\Blade\Blade(RESOURCES . 'views', RESOURCES . '/cache');
 
