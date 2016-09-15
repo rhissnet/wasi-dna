@@ -14,8 +14,10 @@ $capsule->addConnection([
     'database'  => $config->data['dbname'],
     'username'  => $config->data['dbuser'],
     'password'  => $config->data['dbpass'],
-    'charset'   => 'latin1',//'utf8', //'charset' => $config->data['charset'],
-    'collation' => null,//'utf8_unicode_ci',
+    'charset'   => 'utf8',
+    'collation' => 'utf8_unicode_ci',
+    //'charset'   => 'latin1',
+    //'collation' => null,
     'prefix'    => '',
 ]);
 
